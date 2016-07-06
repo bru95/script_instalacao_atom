@@ -1,6 +1,6 @@
 Passo a passo para a instalação do ICA-AtoM no Ubuntu LTS 14.04:
 
-1. Faça o download do arquivo “Instalação-AtoM.tar.gz”.
+1. Faça o download do arquivo zip pelo GitHub.
 2. Extraia os arquivos em algum diretório do seu computador. Para extrair, basta clicar com o botão direito sobre o arquivo, e clicar em “Extrair aqui”.
 3. É muito importante que o arquivo script.sh e os arquivos atom e atom.conf estejam na mesma pasta.
 4. Abra o terminal, e navegue até a pasta onde você extraiu os arquivos.

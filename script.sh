@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # Instalação do Ica-AtoM -  Ubuntu LTS 14.04
 #
