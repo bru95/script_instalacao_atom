@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-# Instalação do Ica-AtoM -  Ubuntu LTS 14.04
+# Instalação do AtoM -  Ubuntu LTS 14.04
 #
 
-echo "Bem-vindo à instalação do Ica-AtoM. Sua senha de usuário poderá ser solicitada algumas vezes."
+echo "Bem-vindo à instalação do AtoM. Sua senha de usuário poderá ser solicitada algumas vezes."
 
 # Verifica e instala MySQL
 if which -a mysql
@@ -100,7 +100,7 @@ sudo add-apt-repository ppa:archivematica/externals
 sudo apt-get update
 sudo apt-get install -y ffmpeg
 
-# Obtenção e instalação do Ica-AtoM
+# Obtenção e instalação do AtoM
 echo "OBTENDO E PREPARANDO A INSTALAÇÃO DO ATOM..."
 wget https://storage.accesstomemory.org/releases/atom-2.2.1.tar.gz
 echo "INICIANDO A INSTALAÇÃO DO ATOM..."
@@ -115,4 +115,4 @@ mysql -h localhost -u root -p -e "CREATE DATABASE atom CHARACTER SET utf8 COLLAT
 mysql -h localhost -u root -p -e "GRANT INDEX, CREATE, SELECT, INSERT, UPDATE, DELETE, ALTER, LOCK TABLES ON atom.* TO 'atom'@'localhost' IDENTIFIED BY '12345';"
 
 # Orientações
-echo "ACESSE http://localhost NO SEU NAVEGADOR FAVORITO E CONCLUA A INSTALAÇÃO DO ICA-ATOM ATRAVÉS DO WEB INSTALLER"
+echo "ACESSE http://localhost NO SEU NAVEGADOR FAVORITO E CONCLUA A INSTALAÇÃO DO ATOM ATRAVÉS DO WEB INSTALLER"
