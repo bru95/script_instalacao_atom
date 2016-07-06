@@ -12,3 +12,5 @@ Passo a passo para a instalação do ICA-AtoM no Ubuntu LTS 14.04:
 
 	Como comentado no passo 7, algumas informações são necessárias durante a execução do script de instalação. Caso programas como o MySQL não estejam instalados, será necessário definir uma senha para o usuário root do servidor de banco de dados. Você saberá que chegou nesta etapa quando a tela do terminal ficar com um tema azulado.
 	A senha para o MySQL será necessária para a criação das tabelas do ICA-AtoM, e é solicitada próximo do final da instalação e também durante a configuração através do navegador.
+
+	OBS: Somente funcionará se o apache não estiver instalado em sua máquina.
